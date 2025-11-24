@@ -51,11 +51,14 @@ Task 3는 Pandas와 NumPy를 활용해 랜덤 데이터를 생성하고, Streaml
 - tap UI 적용
 
 - ### 실행 방법
-- # 가상환경 생성 및 패키지 설치
+```bash
+# 가상환경 생성 및 패키지 설치
 pip install streamlit pandas numpy
 
 # Streamlit 실행 (해당 파일 경로에서)
 streamlit run week12_team3/Task_3.py
+```
+
 ---
 ## Task 4 : 인터랙티브 필터 (데이터 필터링)
 
