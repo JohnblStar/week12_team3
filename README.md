@@ -7,8 +7,6 @@
 - 20225104 : 5
 - 20185122 : 7
 
----
-
 ## Task 1 : 기본 UI 컴포넌트
 
 Task 1은 Streamlit의 기본 입력 위젯을 활용하여 사용자 입력을 처리하는 모듈입니다. 텍스트/슬라이더/선택박스/체크박스/버튼 등을 통해 폼 처리와 피드백 흐름을 학습합니다.
@@ -43,6 +41,21 @@ Task 2는 pandas 데이터프레임을 화면에 표시하고 기본 통계 정�
 pip install -r requirements.txt
 streamlit run app.py
 ```
+---
+## Task 3 : 차트 그리기 - 선 그래프, 막대 그래프, 영역 차트
+Task 3는 Pandas와 NumPy를 활용해 랜덤 데이터를 생성하고, Streamlit의 내장 차트 명령어를 사용하여 데이터를 시각적으로 표현하는 실습 모듈입니다.
+
+### 주요 기능
+- numpy를 이용한 랜덤데이터 생성
+- 다양한 차트 구현 (선, 막대, 영역 차트)
+- tap UI 적용
+
+- ### 실행 방법
+- # 가상환경 생성 및 패키지 설치
+pip install streamlit pandas numpy
+
+# Streamlit 실행 (해당 파일 경로에서)
+streamlit run week12_team3/Task_3.py
 ---
 ## Task 4 : 인터랙티브 필터 (데이터 필터링)
 
