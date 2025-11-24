@@ -69,7 +69,7 @@ Task 4는 범주/범위 기반 필터를 적용해 테이블과 차트의 표시
 ### 실행 방법
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run task3_filter.py
 ```
 ---
 
@@ -109,7 +109,7 @@ Task 6은 Streamlit의 레이아웃 기능을 활용해 UI를 구조화하는 �
 ### 실행 방법
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run task67.py
 ```
 ---
 ## Task 7 : 종합 대시보드 (모든 기능 통합)
@@ -127,5 +127,5 @@ Task 7은 앞선 모든 기능을 통합하여 하나의 대시보드로 구성�
 ### 실행 방법
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run task67.py
 ```
